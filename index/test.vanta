@@ -1,0 +1,166 @@
+{
+  "modules": {
+    "killaura": {
+      "key": 19,
+      "enabled": true,
+      "targets": [
+        "Players"
+      ],
+      "rotations": "Universal",
+      "range": 3.5,
+      "onlyCrits": false,
+      "killaura": true
+    },
+    "hitbox": {
+      "key": 0,
+      "enabled": true,
+      "horizontalSize": 0.3,
+      "verticalSize": 0.3,
+      "showF3B": true,
+      "hitbox": true
+    },
+    "velocity": {
+      "key": 0,
+      "enabled": true,
+      "horizontal": 0.0,
+      "vertical": 0.0,
+      "velocity": true
+    },
+    "criticals": {
+      "key": 0,
+      "enabled": true,
+      "criticals": true
+    },
+    "sprint": {
+      "key": 0,
+      "enabled": true,
+      "allDirections": false,
+      "sprint": true
+    },
+    "speed": {
+      "key": 0,
+      "enabled": true,
+      "speed": true,
+      "upSpeed": 0.4,
+      "downSpeed": 0.4
+    },
+    "elytraflight": {
+      "key": 0,
+      "enabled": true,
+      "speed": 1.0,
+      "motiony": 0.3,
+      "elytraflight": true
+    },
+    "jesus": {
+      "key": 0,
+      "enabled": true,
+      "speed": 1.5,
+      "jesus": true
+    },
+    "noslow": {
+      "key": 0,
+      "enabled": true,
+      "noslow": true
+    },
+    "autorespawn": {
+      "key": 0,
+      "enabled": true,
+      "autorespawn": true
+    },
+    "gamma": {
+      "key": 0,
+      "enabled": true,
+      "gamma": true
+    },
+    "jumpcircle": {
+      "key": 0,
+      "enabled": true,
+      "jumpcircle": true
+    },
+    "pigga": {
+      "key": 0,
+      "enabled": true,
+      "pigga": true
+    },
+    "esp": {
+      "key": 0,
+      "enabled": true,
+      "entityList": [
+        "PLAYERS",
+        "MOBS"
+      ],
+      "blurRadius": 7.5,
+      "gradientRadius": 5.5,
+      "blurAgain": false,
+      "esp": true
+    },
+    "hud": {
+      "key": 0,
+      "enabled": true,
+      "hud": true
+    },
+    "clickgui": {
+      "key": 54,
+      "enabled": false,
+      "clickgui": true
+    },
+    "arrayList": {
+      "key": 0,
+      "enabled": true,
+      "removeVisuals": false,
+      "background": true,
+      "backgroundMasked": true,
+      "backgroundAlpha": 0.35,
+      "arrayList": true
+    },
+    "botstat": {
+      "key": 0,
+      "enabled": true,
+      "botstat": true
+    },
+    "irc": {
+      "key": 0,
+      "enabled": true,
+      "irc": true
+    },
+    "test": {
+      "key": 0,
+      "enabled": true,
+      "testBoolean": false,
+      "testFloat": 0.0,
+      "testFloatTwo": 0.0,
+      "testEnum": "FIRST",
+      "testColor": -65536,
+      "testMultiEnum": [
+        "FIRST",
+        "SECOND"
+      ],
+      "test": true
+    },
+    "modernize": {
+      "key": 0,
+      "enabled": true,
+      "waterColor": true,
+      "swimming": true,
+      "sneaking": true,
+      "elytra": true,
+      "modernize": true
+    },
+    "badGameDesign": {
+      "key": 0,
+      "enabled": true,
+      "noPointZeroThree": true,
+      "badGameDesign": true
+    }
+  },
+  "draggables": {
+    "watermark": {
+      "x": 5,
+      "y": 5
+    },
+    "musicplayer": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}
